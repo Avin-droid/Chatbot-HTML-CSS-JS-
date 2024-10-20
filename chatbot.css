@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Mono", monospace;
+        }
+
+        body 
+        {
+            background: rgba(0, 0, 0, 0.732);
+            color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .main 
+        {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.718);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .image-container 
+        {
+            margin-bottom: 20px;
+        }
+
+        .image-container h1 
+        {
+            color: rgba(0, 255, 255, 0.867);
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .image-container p 
+        {
+            color:whitesmoke;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .giphy img 
+        {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+
+        .input 
+        {
+            display: flex;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.629);
+            border-radius: 30px;
+            padding: 10px 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .talk 
+        {
+            background: transparent;
+            border: none;
+            color: rgba(255, 255, 0, 0.555);
+            font-size: 1.5rem;
+            cursor: pointer;
+            margin-right: 10px;
+            outline: none;
+        }
+
+        .content 
+        {
+            color: grey;
+            font-size: 1rem;
+        }
+
+        .input:hover .talk 
+        {
+            color: aqua;
+        }
+
+        .input:hover .content
+        {
+            color: rgb(218, 165, 32);
+        }
